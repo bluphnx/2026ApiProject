@@ -1,0 +1,69 @@
+1. Create Maven Project
+2. Update pom.xml file with required dependencies
+
+	 i) Dependencies - Dependencies are used to import required jar files
+	 rest-assured
+	 json-path
+	 json
+	 testng
+	 --- for working with OAuth authentication ---
+	 scribejava-apis
+	 --- used for validating json schmas ---
+	 json-schema-validator
+	 --- generate fake data --
+	 javafaker
+	 --- report ---
+	 extentreports
+	--- working with excel data --- 
+	 poi-ooxml
+	 apache.poi
+	 
+	ii) Plugins - Plugins are used to compile and execute our project we need plugins
+3. after changes update the project
+	right click project -> maven -> update project -> select the project -> Checkmark Force update -> Press OK
+	
+4. Project Structure
+   src/main/java
+   src/main/resources  
+   src/test/java	
+	 api.endpoints
+	 api.payload
+	 api.test
+	 api.utilities
+   src/test/resources
+     routes.properties	
+   src
+   target
+   reports
+   test-output
+   pom.xml
+   testng.xml
+   userdata.xlsx
+   
+5. create routes.java class ---> it contains all Urls of the project
+6. create UserEndPoint.java class ---> it contains methods to perform POST, GET, UPDATE and DELETE for User module
+7. create StoreEndPoint.java class ---> it contains methods to perform POST, GET, UPDATE and DELETE for Store module
+8. create PetEndPoint.java class ---> it contains methods to perform POST, GET, UPDATE and DELETE for Pet module
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
