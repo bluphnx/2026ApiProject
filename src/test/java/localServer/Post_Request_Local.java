@@ -2,6 +2,9 @@ package localServer;
 
 import java.io.File;
 import org.hamcrest.Matchers;
+
+import com.github.javafaker.Faker;
+
 import io.restassured.RestAssured;
 //import io.restassured.http.ContentType;
 
@@ -36,6 +39,7 @@ public class Post_Request_Local {
 //				+ "			\"price\": 101\r\n"
 //				+ "		}";
 		
+				
 		RestAssured.given()
 		.baseUri("http://localhost:3000")
 		.header("Content-Type", "application/json")

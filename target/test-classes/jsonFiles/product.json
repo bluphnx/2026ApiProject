@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "id": "003",
+      "name": "Banana",
+      "quantity": 1,
+      "price": 10
+    },
+    {
+      "id": "004",
+      "name": "Custard Apple",
+      "quantity": 1,
+      "price": 35
+    },
+    {
+      "id": "005",
+      "name": "Kiwi",
+      "quantity": 1,
+      "price": 101
+    },
+    {
+      "id": "006",
+      "name": "Water Melon",
+      "quantity": 1,
+      "price": 40
+    }
+  ]
+}

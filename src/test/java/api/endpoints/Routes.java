@@ -15,6 +15,7 @@ DELETE - delete user - https://petstore.swagger.io/v2/user/{username}
 */	
 
 	
+	// Pet store Base url
 	public static String base_url = "https://petstore.swagger.io/v2";	
 	
 	// User Module URLs
