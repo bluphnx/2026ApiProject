@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="api.test.LocalTests">
+        <methods>
+          <include name="TestGetUser"/>
+          <include name="TestPutUser"/>
+          <include name="TestPostUser"/>
+          <include name="TestDeleteUser"/>
+          <include name="SetupData"/>
+        </methods>
+      </class> <!-- api.test.LocalTests -->
+      <class name="api.test.LocalProductTests">
+        <methods>
+          <include name="SetupData"/>
+          <include name="TestGetAllUser"/>
+        </methods>
+      </class> <!-- api.test.LocalProductTests -->
+      <class name="api.test.UserTests">
+        <methods>
+          <include name="SetupData"/>
+          <include name="TestPostUser"/>
+          <include name="TestPutUser"/>
+        </methods>
+      </class> <!-- api.test.UserTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

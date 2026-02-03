@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-30T22:06:41 IST" name="Default suite" finished-at="2026-01-30T22:06:43 IST" duration-ms="1931">
+  <suite started-at="2026-02-03T22:49:31 IST" name="Default suite" finished-at="2026-02-03T22:49:35 IST" duration-ms="3761">
     <groups>
     </groups>
-    <test started-at="2026-01-30T22:06:41 IST" name="Default test" finished-at="2026-01-30T22:06:43 IST" duration-ms="1931">
-      <class name="api.test.LocalProductTests">
-        <test-method is-config="true" signature="SetupData()[pri:0, instance:api.test.LocalProductTests@6f36c2f0]" started-at="2026-01-30T22:06:41 IST" name="SetupData" finished-at="2026-01-30T22:06:41 IST" duration-ms="158" status="PASS">
+    <test started-at="2026-02-03T22:49:31 IST" name="Default test" finished-at="2026-02-03T22:49:35 IST" duration-ms="3761">
+      <class name="api.test.LocalProductTests2">
+        <test-method is-config="true" signature="SetupData()[pri:0, instance:api.test.LocalProductTests2@f58853c]" started-at="2026-02-03T22:49:31 IST" name="SetupData" finished-at="2026-02-03T22:49:31 IST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetupData -->
-        <test-method signature="TestGetAllUser()[pri:2, instance:api.test.LocalProductTests@6f36c2f0]" started-at="2026-01-30T22:06:41 IST" name="TestGetAllUser" finished-at="2026-01-30T22:06:43 IST" duration-ms="1647" status="PASS">
+        <test-method signature="TestPostUser()[pri:1, instance:api.test.LocalProductTests2@f58853c]" started-at="2026-02-03T22:49:31 IST" name="TestPostUser" finished-at="2026-02-03T22:49:34 IST" duration-ms="3259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPostUser -->
+        <test-method signature="TestGetAllUser()[pri:2, instance:api.test.LocalProductTests2@f58853c]" started-at="2026-02-03T22:49:34 IST" name="TestGetAllUser" finished-at="2026-02-03T22:49:35 IST" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestGetAllUser -->
-      </class> <!-- api.test.LocalProductTests -->
+        <test-method signature="TestDeleteUser()[pri:4, instance:api.test.LocalProductTests2@f58853c]" started-at="2026-02-03T22:49:35 IST" name="TestDeleteUser" finished-at="2026-02-03T22:49:35 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDeleteUser -->
+      </class> <!-- api.test.LocalProductTests2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

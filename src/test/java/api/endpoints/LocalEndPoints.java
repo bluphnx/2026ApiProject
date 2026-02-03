@@ -36,7 +36,8 @@ public static Response CreateUser(ProductResponse payload){
 	Response response = given()
 							.accept(ContentType.JSON)
 							.contentType(ContentType.JSON)
-							.body(payload)
+//							.body(payload)
+							.body(payload.getProduct().get(0))
 						.when()
 							.post(LocalRoutes.post_url)
 						;
